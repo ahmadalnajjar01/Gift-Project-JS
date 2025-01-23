@@ -1,0 +1,314 @@
+/* navbar style */
+.navbar {
+  width: 100%;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+  position: sticky;
+  /* Make the navbar sticky */
+  top: 0;
+  /* Sticks to the top of the viewport */
+  z-index: 1000;
+  /* Ensures it stays above other elements */
+}
+
+/* Logo */
+.logo-image {
+  width: 11rem;
+  /* Adjust logo size */
+  height: auto;
+}
+
+/* Search Bar */
+.search-bar {
+  width: 350px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.search-bar:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 8px 10px;
+  /* flex: 1; */
+  font-size: 1rem;
+}
+
+.search-bar .searchBox button {
+  justify-self: end;
+}
+
+.search-bar button {
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: #fff;
+  padding: 8px 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #333;
+}
+
+/* Icons Section */
+.icons-container {
+  gap: 25px;
+}
+
+.icon-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #555;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.icon-link i {
+  color: #555;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.icon-link:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.icon-link i:hover {
+  color: #000;
+}
+
+#logoutButton a {
+  color: #555;
+  text-decoration: none;
+}
+
+#logoutButton a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+body {
+  height: 400vh;
+  margin: 0;
+  background: linear-gradient(0deg, #ffffff);
+  /* font-family: "Rubik Mono One", sans-serif; */
+}
+
+h2 {
+  color: #c1783a;
+  text-align: center;
+  padding-top: 7vh;
+  margin-bottom: 5vh;
+}
+
+h2 span {
+  color: #b99765;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 5rem;
+}
+.group {
+  background-color: white;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.gift-link {
+  text-decoration: none;
+}
+
+.item {
+  width: 10vw;
+  height: 65vh;
+  position: relative;
+  background-image: var(--url);
+  background-position: center;
+  background-size: 75vh;
+  margin: 1vw;
+  border-radius: 3vw;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 3vw;
+  position: absolute;
+  height: 65vh;
+  width: 100%;
+  opacity: auto;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.menu {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  width: 100%;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+  border-radius: 0 0 3vw 3vw;
+  transform: translateX(-50%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0));
+  opacity: 0;
+}
+
+.menu label {
+  color: #cfd9db;
+  display: block;
+
+  overflow-x: hidden;
+  text-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.modal-description {
+  font-size: 16px;
+  color: #555;
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.btnA {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+#readMoreButtonBox1 {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1rem;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  background: linear-gradient(45deg, #555, #dfc7c7);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#readMoreButtonBox1:hover {
+  background: linear-gradient(45deg, #555, #dfc7c7);
+  transform: scale(1.1);
+}
+
+#readMoreButtonBox1:active {
+  transform: scale(1);
+}
+
+#readMoreButtonBox2 {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1rem;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  background: linear-gradient(45deg, #555, #dfc7c7);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#readMoreButtonBox2:hover {
+  background: linear-gradient(45deg, #555, #dfc7c7);
+  transform: scale(1.1);
+}
+
+#readMoreButtonBox2:active {
+  transform: scale(1);
+}
+
+#readMoreButtonBox3 {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1rem;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  background: linear-gradient(45deg, #555, #dfc7c7);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#readMoreButtonBox3:hover {
+  background: linear-gradient(45deg, #555, #dfc7c7);
+  transform: scale(1.1);
+}
+
+#readMoreButtonBox3:active {
+  transform: scale(1);
+}

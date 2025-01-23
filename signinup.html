@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="signinup.css" />
+  <title>Sign in & Sign up Form</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="forms-container">
+      <div class="signin-signup">
+        <form action="#" class="sign-in-form" id="sign-in-form">
+          <h2 class="title">Sign in</h2>
+          <p style="color: red" id="signInMessage"></p>
+          <!-- Changed ID -->
+          <div class="input-field">
+            <i class="" style="color: #74c0fc"></i>
+            <input type="email" placeholder="Email" id="sign-in-email" />
+            <span class="error-message"></span>
+          </div>
+          <div class="input-field">
+            <i class=""></i>
+            <input type="password" placeholder="Password" id="sign-in-password" />
+            <span class="error-message"></span>
+          </div>
+          <input type="submit" value="Login" class="btn solid" />
+
+          <div class="social-media">
+            <p class="social-text">Or Sign in with</p>
+            <button id="googleSignInBtn" class="social-icon google-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" viewBox="0 0 246 262" width="32"
+                height="32">
+                <path fill="#4285F4"
+                  d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027">
+                </path>
+                <path fill="#34A853"
+                  d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1">
+                </path>
+                <path fill="#FBBC05"
+                  d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782">
+                </path>
+                <path fill="#EB4335"
+                  d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251">
+                </path>
+              </svg>
+            </button>
+          </div>
+        </form>
+        <!-- sign-up-form -->
+
+        <form action="#" class="sign-up-form" id="sign-up-form">
+          <h2 class="title">Sign up</h2>
+          <p style="color: red" id="signUpMessage"></p>
+
+          <div class="input-field">
+            <i class=""></i>
+            <input type="text" name="username" placeholder="Username" id="sign-up-username" />
+            <span class="error-message"></span>
+          </div>
+          <div class="input-field">
+            <i class=""></i>
+            <input type="email" name="email" placeholder="Email" id="sign-up-email" />
+            <span class="error-message"></span>
+          </div>
+          <div class="input-field">
+            <i class=""></i>
+            <input type="password" name="password" placeholder="Password" id="sign-up-password" />
+            <span class="error-message"></span>
+          </div>
+          <div class="input-field">
+            <i class=""></i>
+            <input type="password" name="confirm-password" placeholder="Confirm Password" id="confirm-password" />
+            <span class="error-message" id="confirm-password-error"></span>
+          </div>
+
+          <div class="input-field">
+            <i class=""></i>
+            <input type="text" name="phonenumber" placeholder="Phone Number" id="sign-up-phonenumber" />
+            <span class="error-message"></span>
+          </div>
+
+          <input type="submit" class="btn" value="Sign up" />
+
+          <div class="social-media">
+            <p class="social-text">Or Sign up with</p>
+            <button id="googleSignUpBtn" class="social-icon google-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" viewBox="0 0 246 262" width="32"
+                height="32">
+                <path fill="#4285F4"
+                  d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027">
+                </path>
+                <path fill="#34A853"
+                  d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1">
+                </path>
+                <path fill="#FBBC05"
+                  d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782">
+                </path>
+                <path fill="#EB4335"
+                  d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251">
+                </path>
+              </svg>
+            </button>
+            <p id="signUpMessage"></p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+          <h3>New here?</h3>
+          <p>
+            Become a Part of Our Beauty Community. Sign up for exclusive
+            offers, tips, and radiant self-care!
+          </p>
+          <button class="btn transparent" id="sign-up-btn">Sign up</button>
+        </div>
+        <img src="img/log.gif" class="image" alt="" />
+      </div>
+      <div class="panel right-panel">
+        <div class="content">
+          <h3>One of us?</h3>
+          <p>
+            Welcome Back to Your Beauty Sanctuary. Discover new favorites and
+            indulge in timeless essentials.
+          </p>
+          <button class="btn transparent" id="sign-in-btn">Sign in</button>
+        </div>
+        <img src="img/register.gif" class="image" alt="" />
+      </div>
+    </div>
+  </div>
+  <script type="module" src="./signinup.js"></script>
+  <!-- <script type="module" src="./test.js"></script> -->
+</body>
+
+</html>

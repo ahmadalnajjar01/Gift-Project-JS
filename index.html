@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LUMIERE</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- AOS Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="homePage.css" />
+</head>
+
+<body>
+  <!-- Sticky Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid nav-container">
+      <!-- Logo (Left Section) -->
+      <div class="logo-container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/logo.png" alt="Logo" class="logo-image" />
+        </a>
+      </div>
+
+      <!-- Navbar Toggler for Mobile View -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Content -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <!-- Categories (Left Section) -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 categories">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <!-- Dropdown for Natural -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="naturalDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Natural Products</a>
+            <ul class="dropdown-menu" aria-labelledby="naturalDropdown">
+              <li><a class="dropdown-item" href="natural.html">Face</a></li>
+              <li><a class="dropdown-item" href="bodyCare.html">Body</a></li>
+              <li><a class="dropdown-item" href="hairCare.html">Hair</a></li>
+            </ul>
+          </li>
+          <!-- Dropdown for Perfume Women -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="perfumeDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Perfumes</a>
+            <ul class="dropdown-menu" aria-labelledby="perfumeDropdown">
+              <li><a class="dropdown-item" href="PerfumeW.html">Women Perfume</a></li>
+              <li><a class="dropdown-item" href="perfumeM.html">Men Perfume</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="proNajar.html">Gift Box</a></li>
+          <li class="nav-item"><a class="nav-link" href="aboutus.html">About us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+        </ul>
+
+        <!-- Search Bar (Middle Section) -->
+        <div class="search-bar mx-auto">
+          <form class="searchBox d-flex" id="searchForm" action="searchresult.html" method="GET">
+            <input class="form-control me-2" type="text" id="searchInput" name="query"
+              placeholder="Search products..." />
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+
+        <!-- Icons (Right Section) -->
+        <div class="d-flex icons-container">
+          <div class="icon-link profile-icon" id="profileIcon">
+            <a href="#"><i class="fas fa-user"></i></a>
+            <span id="profileName">Sign In</span>
+          </div>
+          <div class="icon-link wishlist-icon">
+            <a href="wichlist.html"><i class="fas fa-heart"></i></a>
+            <span>Wishlist</span>
+          </div>
+          <!-- Logout Button (Initially hidden) -->
+          <div class="icon-link" id="logoutButton" style="display: none">
+            <a href="#" id="logoutBtn"><i class="fa fa-sign-out"></i><span> Log Out</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/perfW.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block styled-caption">
+          <p class="small-text">SALE UP TO 40% OFF!</p>
+          <h2>Limited Time.<br />Be Quick!</h2>
+          <a href="PerfumeW.html"><button class="btn btn-outline-dark fw-bold text-uppercase px-4 py-2">
+              Shop Now
+            </button></a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/perfM.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block styled-caption">
+          <p class="small-text">Hurry, Only a Few Left!</p>
+          <h2>Grab Your Favorites.<br />Save Big!</h2>
+          <a href="perfumeM.html"><button class="btn btn-outline-dark fw-bold text-uppercase px-4 py-2">
+              Shop Now
+            </button></a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/hairr.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block styled-caption">
+          <p class="small-text">Limited Stock Available!</p>
+          <h2>Massive Discounts.<br />Act Fast!</h2>
+          <a href="hairCare.html"><button class="btn btn-outline-dark fw-bold text-uppercase px-4 py-2">
+              Shop Now
+            </button></a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/bodyp.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block styled-caption">
+          <p class="small-text">Exclusive Deals Inside!</p>
+          <h2>Shop Now.<br />Don't Miss Out!</h2>
+          <a href="bodyCare.html"><button class="btn btn-outline-dark fw-bold text-uppercase px-4 py-2">
+              Shop Now
+            </button></a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/Natural.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block styled-caption">
+          <p class="small-text">Up to 50% OFF!</p>
+          <h2>Your Dream Deals.<br />Shop Today!</h2>
+          <a href="natural.html"><button class="btn btn-outline-dark fw-bold text-uppercase px-4 py-2">
+              Shop Now
+            </button></a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- banners -->
+  <div class="banner-box" data-aos="fade-up" data-aos-duration="1000">
+    <div class="banner left-banner">
+      <div class="text">
+        <p class="sub">Recycle Your Empty Bottles & Save</p>
+        <p class="main">
+          Return used bottles and get 10% off your next purchase
+        </p>
+        <a href="proMarya.html"><button>Read More</button></a>
+      </div>
+      <div class="image">
+        <img src="./images/perfume.png" alt="product-image" />
+      </div>
+    </div>
+    <div class="banner right-banner">
+      <div class="text">
+        <p class="sub">Winter Skincare Are Here!</p>
+        <p class="main">
+          Stay Hydrated And Glowing With Our Winter Must-Haves
+        </p>
+        <a href="natural.html"><button>Shop Now</button></a>
+      </div>
+      <div class="image">
+        <img src="./images/face.png" alt="product-image" />
+      </div>
+    </div>
+  </div>
+  <!-- Best Sellers -->
+  <section>
+    <h2 class="title" data-aos="fade-up" data-aos-duration="1000">Best Sellers</h2>
+    <div class="slider-container" data-aos="fade-up" data-aos-duration="1000">
+      <button class="arrow left-arrow">&lt;</button>
+      <div class="content"></div>
+      <button class="arrow right-arrow">&gt;</button>
+    </div>
+  </section>
+  <!-- Online Benefits -->
+  <div class="online-benefits">
+    <h2 class="benefits-title" data-aos="fade-up" data-aos-duration="1000">OUR EXCLUSIVE BENEFITS</h2>
+    <div class="benefits-box" data-aos="fade-up" data-aos-duration="1000">
+      <div class="benefit-item">
+        <img src="./images/worldwide.png" alt="Worldwide Shipping" />
+        <p class="benefit-title">WORLDWIDE SHIPPING</p>
+        <p class="benefit-desc">WITHIN 3 TO 10 DAYS</p>
+      </div>
+      <div class="benefit-item">
+        <img src="./images/shipping-truck.png" alt="Free Shipping" />
+        <p class="benefit-title">FREE SHIPPING</p>
+        <p class="benefit-desc">FOR ORDERS OVER 50 JOD</p>
+      </div>
+      <div class="benefit-item">
+        <img src="./images/samples.png" alt="Free Samples" />
+        <p class="benefit-title">3 FREE SAMPLES</p>
+        <p class="benefit-desc">WITH ANY ORDER</p>
+      </div>
+      <div class="benefit-item">
+        <img src="./images/cash_on_delivery.png" alt="Cash on Delivery" />
+        <p class="benefit-title">CASH ON DELIVERY</p>
+        <p class="benefit-desc">PAY ON ARRIVAL</p>
+      </div>
+    </div>
+  </div>
+  <!-- Catalog -->
+  <div class="catalog container">
+    <div class="category" onclick="location.href='#face'">
+      <a href="natural.html"><img src="./images/face care.jpg" alt="Natural" class="grayscale" /></a>
+      <p>Face</p>
+    </div>
+    <div class="category" onclick="location.href='#body'">
+      <a href="bodyCare.html"><img src="./images/body.jpg" alt="Body" class="grayscale" /></a>
+      <p>BODY</p>
+    </div>
+    <div class="category" onclick="location.href='#hair'">
+      <a href="hairCare.html"><img src="./images/hair.jpg" class="grayscale" alt="Hair and Scalp" /></a>
+      <p>HAIR</p>
+    </div>
+    <div class="category" onclick="location.href='#men-perfumes'">
+      <a href="perfumeM.html"><img src="./images/men perfumes.jpg" alt="men-perfumes" class="grayscale" /></a>
+      <p>MEN PERFUMES</p>
+    </div>
+    <div class="category" onclick="location.href='#women-perfumes'">
+      <a href="PerfumeW.html"><img src="./images/women perfumes.jpg" alt="women-perfumes" class="grayscale" /></a>
+      <p>WOMEN PERFUMES</p>
+    </div>
+  </div>
+  <!-- Features Section -->
+  <div class="features-section mt-5">
+    <div class="features-container">
+      <div class="feature-item">
+        <img src="./images/chemicals.png" alt="No Harsh Chemicals" />
+        <p class="feature-title">NO HARSH CHEMICALS</p>
+      </div>
+      <div class="feature-item">
+        <img src="./images/vegan.png" alt="Vegan Friendly" />
+        <p class="feature-title">VEGAN FRIENDLY</p>
+      </div>
+      <div class="feature-item">
+        <img src="./images/energy.png" alt="80% Renewable Energy" />
+        <p class="feature-title">80% RENEWABLE ENERGY</p>
+      </div>
+      <div class="feature-item">
+        <img src="./images/animal.png" alt="No Animal Testing" />
+        <p class="feature-title">NO ANIMAL TESTING</p>
+      </div>
+    </div>
+    <h3 class="subsection-title">WITHOUT THESE HARSH CHEMICALS</h3>
+    <p class="chemicals-list">
+      • Parabens • Oxybenzone • Triclocarban • Formaldehyde • Hydroquinone
+    </p>
+  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Section 1: Brand Description -->
+      <div class="footer-section">
+        <div class="footer-logo"><img src="./images/logo.png" /></div>
+        <p class="footer-text">
+          Where beauty meets care—discover your signature glow with our
+          exquisite range of perfumes, skincare, hair, and body essentials!
+          Transform every moment into a self-care ritual with products crafted
+          to inspire confidence and radiance.
+        </p>
+        <div class="social-icons">
+          <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <!-- Section 2: Quick Menu -->
+      <div class="footer-section">
+        <div class="quick-menu">
+          <h3 class="footer-title">Quick Menu</h3>
+          <ul class="footer-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="natural.html">Natural Products</a></li>
+            <li><a href="proMarya.html">Refill Scheme</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Section 3: Contact Info -->
+      <div class="footer-section">
+        <h3 class="footer-title">Contact Us</h3>
+        <ul class="footer-contact">
+          <li><i class="fas fa-envelope"></i> LUMIERE@gmail.com</li>
+          <li><i class="fas fa-phone"></i> +962 00000000</li>
+          <li><i class="fas fa-map-marker-alt"></i> Amman, Abdoun</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        Copyright © 2025 <span class="brand-name">LUMIERE</span>. All rights
+        reserved
+      </p>
+      <div class="footer-links">
+        <a href="#">Terms of Use</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.9.1/firebase-auth.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    const leftArrow = document.querySelector(".left-arrow");
+    const rightArrow = document.querySelector(".right-arrow");
+    const content = document.querySelector(".content");
+
+    leftArrow.addEventListener("click", () => {
+      content.scrollBy({ left: -240, behavior: "smooth" });
+    });
+
+    rightArrow.addEventListener("click", () => {
+      content.scrollBy({ left: 240, behavior: "smooth" });
+    });
+  </script>
+  <script type="module" src="homePage.js"></script>
+  <script type="module" src="search.js"></script>
+  <script type="module" src="signchecked.js"></script>
+</body>
+
+</html>

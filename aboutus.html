@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Story</title>
+  <!-- link font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="aboutus.css">
+</head>
+
+<body>
+  <!-- Sticky Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid nav-container">
+      <!-- Logo (Left Section) -->
+      <div class="logo-container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/logo.png" alt="Logo" class="logo-image" />
+        </a>
+      </div>
+
+      <!-- Navbar Toggler for Mobile View -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Content -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <!-- Categories (Left Section) -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 categories">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <!-- Dropdown for Natural -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="naturalDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Natural Products</a>
+            <ul class="dropdown-menu" aria-labelledby="naturalDropdown">
+              <li><a class="dropdown-item" href="natural.html">Face</a></li>
+              <li><a class="dropdown-item" href="bodyCare.html">Body</a></li>
+              <li><a class="dropdown-item" href="hairCare.html">Hair</a></li>
+            </ul>
+          </li>
+          <!-- Dropdown for Perfume Women -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="perfumeDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Perfumes</a>
+            <ul class="dropdown-menu" aria-labelledby="perfumeDropdown">
+              <li><a class="dropdown-item" href="PerfumeW.html">Women Perfume</a></li>
+              <li><a class="dropdown-item" href="perfumeM.html">Men Perfume</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="proNajar.html">Gift Box</a></li>
+          <li class="nav-item"><a class="nav-link" href="aboutus.html">About us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+        </ul>
+
+        <!-- Search Bar (Middle Section) -->
+        <div class="search-bar mx-auto">
+          <form class="searchBox d-flex" id="searchForm" action="searchresult.html" method="GET">
+            <input class="form-control me-2" type="text" id="searchInput" name="query"
+              placeholder="Search products..." />
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+
+        <!-- Icons (Right Section) -->
+        <div class="d-flex icons-container">
+          <div class="icon-link profile-icon" id="profileIcon">
+            <a href="#"><i class="fas fa-user"></i></a>
+            <span id="profileName">Sign In</span>
+          </div>
+          <div class="icon-link wishlist-icon">
+            <a href="wichlist.html"><i class="fas fa-heart"></i></a>
+            <span>Wishlist</span>
+          </div>
+          <!-- Logout Button (Initially hidden) -->
+          <div class="icon-link" id="logoutButton" style="display: none">
+            <a href="#" id="logoutBtn"><i class="fa fa-sign-out"></i><span> Log Out</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <header class="hero-section">
+    <div class="container">
+      <h1 class="hero-title" data-aos="flip-down">Who We Are</h1>
+      <p class="hero-subtitle" data-aos="flip-up">Skincare is a crowded market. 'Natural’ has become the new “normal” -
+        and normal is boring. That's why we go a step further with our waste-fighting formulations. Each product in our
+        range sources and rescues by-products from other industries – the food and drink industry in particular. We
+        believe circular / by-product beauty will be the next step – we’re proud to be pioneering that movement.</p>
+      <div>
+        <img src="./aboutusimages/1.png" alt="Logo" class="image" data-aos="flip-up">
+        <img src="./aboutusimages/2.png" alt="Logo" class="image" data-aos="flip-up">
+        <img src="./aboutusimages/3.png" alt="Logo" class="image" data-aos="flip-up">
+        <img src="./aboutusimages/4.png" alt="Logo" class="image" data-aos="flip-up">
+
+
+
+      </div>
+    </div>
+  </header>
+
+  <div data-aos="fade-right">
+    <section class="content-section">
+      <div class="container">
+
+        <div class="team">
+          <div class="card card0">
+            <div class="border">
+              <h2>OUR ROOTS </h2>
+
+              <div class="icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="card card1">
+            <div class="border">
+              <h2>OUR VISION </h2>
+              <div class="icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+  </div>
+
+  <div data-aos="flip-up">
+    <section class="hero-section">
+      <div class="container">
+        <h1>OUR VALUES</h1>
+        <p class="hero-subtitle">
+          We provide innovative products to our customers and actively contribute to a less wasteful world. Our team is
+          committed to the creation and execution of our products and we are proud tohave a supportive company culture
+          that values diversity and collaboration. We care about our community and strive to build trust and mutual
+          respect to create an ethos of honesty. Our passion towards the planet incorporates social and ethical
+          responsibilities – we embrace empathy and take action whenever possible.
+        </p>
+      </div>
+    </section>
+  </div>
+  <div data-aos="flip-up">
+    <section class="hero-section">
+      <div class="container">
+        <h1>OUR MISSION</h1>
+        <p class="hero-subtitle">
+          The circular economy sits at the heart of what we do the process of making something better from things that
+          already exist. Our ultimate mission is to leave the world better than we found it by transforming ingredients
+          that would otherwise be discarded into natural, organic beauty products – better for you, better for the
+          world. </p>
+      </div>
+    </section>
+  </div>
+  <section class="slider">
+    <div class="items">
+      <div class="item active"><img src="./aboutusimages/image1.jpeg"></div>
+      <div class="item next"><img src="./aboutusimages/image2.jpeg"></div>
+      <div class="item"><img src="./aboutusimages/image3.jpeg"></div>
+      <div class="item"><img src="./aboutusimages/image4.jpeg"></div>
+      <div class="item"><img src="./aboutusimages/image5.jpeg"></div>
+      <div class="item prev"><img src="./aboutusimages/image6.jpeg"></div>
+      <div class="button-container">
+        <div class="button"><i class="fas fa-angle-left"></i></div>
+        <div class="button"><i class="fas fa-angle-right"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="hero-section">
+    <div class="container">
+      <h3 class="hero-title" data-aos="flip-up">OUR APPROACH</h3>
+      <p class="hero-subtitle" data-aos="flip-up"> we focus on positive change so that we can all make a difference in
+        small steps. Our aim is to reduce waste in a variety of industries, and we are proud to support low-income
+        workers around the world where we can. we believe that it is our responsibility to ensure that we are keeping
+        ourselves informed of the latest innovations so that our products are the best that they can be! We like sharing
+        our ideas with our community of UpCirclers, we like asking our audience questions and value their insights, we
+        like being held accountable, we like discussion – we pride ourselves on transparency!</p>
+      <div>
+        <img src="./aboutusimages/5.png" alt="Logo" class="mage" data-aos="flip-up">
+        <img src="./aboutusimages/6.png" alt="Logo" class="image" data-aos="flip-up">
+        <img src="./aboutusimages/7.png" alt="Logo" class="image" data-aos="flip-up">
+        <img src="./aboutusimages/8.png" alt="Logo" class="image" data-aos="flip-up">
+
+
+
+      </div>
+    </div>
+  </div>
+ <!-- Footer -->
+ <footer class="footer">
+  <div class="footer-container">
+    <!-- Section 1: Brand Description -->
+    <div class="footer-section">
+      <div class="footer-logo"><img src="./images/logo.png" /></div>
+      <p class="footer-text">
+        Where beauty meets care—discover your signature glow with our
+        exquisite range of perfumes, skincare, hair, and body essentials!
+        Transform every moment into a self-care ritual with products crafted
+        to inspire confidence and radiance.
+      </p>
+      <div class="social-icons">
+        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <!-- Section 2: Quick Menu -->
+    <div class="footer-section">
+      <div class="quick-menu">
+        <h3 class="footer-title">Quick Menu</h3>
+        <ul class="footer-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="natural.html">Natural Products</a></li>
+          <li><a href="proMarya.html">Refill Scheme</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Section 3: Contact Info -->
+    <div class="footer-section">
+      <h3 class="footer-title">Contact Us</h3>
+      <ul class="footer-contact">
+        <li><i class="fas fa-envelope"></i> LUMIERE@gmail.com</li>
+        <li><i class="fas fa-phone"></i> +962 00000000</li>
+        <li><i class="fas fa-map-marker-alt"></i> Amman, Abdoun</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>
+      Copyright © 2025 <span class="brand-name">LUMIERE</span>. All rights
+      reserved
+    </p>
+    <div class="footer-links">
+      <a href="#">Terms of Use</a>
+      <a href="#">Cookie Policy</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script type="module" src="signchecked.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="aboutus.js"></script>
+  <script src="search.js" type="module"></script>
+</body>
+
+</html>

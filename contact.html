@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <!-- Sticky Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid nav-container">
+            <!-- Logo (Left Section) -->
+            <div class="logo-container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./images/logo.png" alt="Logo" class="logo-image" />
+                </a>
+            </div>
+
+            <!-- Navbar Toggler for Mobile View -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Categories (Left Section) -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 categories">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <!-- Dropdown for Natural -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="naturalDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Natural Products</a>
+                        <ul class="dropdown-menu" aria-labelledby="naturalDropdown">
+                            <li><a class="dropdown-item" href="natural.html">Face</a></li>
+                            <li><a class="dropdown-item" href="bodyCare.html">Body</a></li>
+                            <li><a class="dropdown-item" href="hairCare.html">Hair</a></li>
+                        </ul>
+                    </li>
+                    <!-- Dropdown for Perfume Women -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="perfumeDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Perfumes</a>
+                        <ul class="dropdown-menu" aria-labelledby="perfumeDropdown">
+                            <li><a class="dropdown-item" href="PerfumeW.html">Women Perfume</a></li>
+                            <li><a class="dropdown-item" href="perfumeM.html">Men Perfume</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="proNajar.html">Gift Box</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+                </ul>
+
+                <!-- Search Bar (Middle Section) -->
+                <div class="search-bar mx-auto">
+                    <form class="searchBox d-flex" id="searchForm" action="searchresult.html" method="GET">
+                        <input class="form-control me-2" type="text" id="searchInput" name="query"
+                            placeholder="Search products..." />
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+
+                <!-- Icons (Right Section) -->
+                <div class="d-flex icons-container">
+                    <div class="icon-link profile-icon" id="profileIcon">
+                        <a href="#"><i class="fas fa-user"></i></a>
+                        <span id="profileName">Sign In</span>
+                    </div>
+                    <div class="icon-link wishlist-icon">
+                        <a href="wichlist.html"><i class="fas fa-heart"></i></a>
+                        <span>Wishlist</span>
+                    </div>
+                    <!-- Logout Button (Initially hidden) -->
+                    <div class="icon-link" id="logoutButton" style="display: none">
+                        <a href="#" id="logoutBtn"><i class="fa fa-sign-out"></i><span> Log Out</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="contact-header">
+            <h1>Get In Touch</h1>
+            <p>Any question or remark? Just write us a message!</p>
+        </div>
+        <div class="contact-section">
+            <div class="row">
+                <!-- Contact Information -->
+                <div class="col-md-5">
+                    <div class="contact-info custom-height">
+                        <h4>Contact Information</h4>
+                        <h6>Say something to start a live chat!</h6>
+                        <p><i class="bi bi-telephone"></i> <span>+962 000000000</span></p>
+                        <p><i class="bi bi-envelope"></i> <span>LUMIERE@gmail.com</span></p>
+                        <p><i class="bi bi-geo-alt"></i> <span>123 Alnassr Street, Abdoun, Amman, Jordan</span></p>
+                        <div class="icons-c">
+                            <a href="#" class="me-3"><i class="bi bi-facebook custom-color"></i></a>
+                            <a href="#" class="me-3"><i class="bi bi-instagram custom-color"></i></a>
+                            <a href="#" class="me-3"><i class="bi bi-twitter custom-color"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-md-5">
+                    <form id="feedbackForm">
+                        <div class="row mb-3">
+                            <div class="col">
+                                <input type="text" id="firstName" class="form-control" placeholder="First Name"
+                                    required>
+                            </div>
+                            <div class="col">
+                                <input type="text" id="lastName" class="form-control" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" id="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" id="phone" class="form-control" placeholder="Phone Number">
+                        </div>
+                        <div class="mb-3">
+                            <select id="subject" class="form-select" required>
+                                <option value="">Select Subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="order">Order Inquiry</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <textarea id="message" class="form-control" rows="5" placeholder="Write your message..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-send">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Map -->
+    <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3381.3897576302284!2d36.08261977567354!3d32.05870537397211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151b65cd4d8f17e1%3A0x30e86b8a97e4ac7d!2sOrange%20Digital%20Village%20Zarqa!5e0!3m2!1sen!2sjo!4v1737142763031!5m2!1sen!2sjo"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+   <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Section 1: Brand Description -->
+      <div class="footer-section">
+        <div class="footer-logo"><img src="./images/logo.png" /></div>
+        <p class="footer-text">
+          Where beauty meets care—discover your signature glow with our
+          exquisite range of perfumes, skincare, hair, and body essentials!
+          Transform every moment into a self-care ritual with products crafted
+          to inspire confidence and radiance.
+        </p>
+        <div class="social-icons">
+          <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <!-- Section 2: Quick Menu -->
+      <div class="footer-section">
+        <div class="quick-menu">
+          <h3 class="footer-title">Quick Menu</h3>
+          <ul class="footer-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="natural.html">Natural Products</a></li>
+            <li><a href="proMarya.html">Refill Scheme</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Section 3: Contact Info -->
+      <div class="footer-section">
+        <h3 class="footer-title">Contact Us</h3>
+        <ul class="footer-contact">
+          <li><i class="fas fa-envelope"></i> LUMIERE@gmail.com</li>
+          <li><i class="fas fa-phone"></i> +962 00000000</li>
+          <li><i class="fas fa-map-marker-alt"></i> Amman, Abdoun</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        Copyright © 2025 <span class="brand-name">LUMIERE</span>. All rights
+        reserved
+      </p>
+      <div class="footer-links">
+        <a href="#">Terms of Use</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <script type="module" src="signchecked.js"></script>
+    <script type="module" src="contact.js"></script>
+    <script type="module" src="search.js"></script>
+</body>
+
+</html>

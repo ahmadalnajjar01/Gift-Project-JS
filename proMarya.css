@@ -1,0 +1,451 @@
+  /* General Styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+ /* navbar style */
+.navbar {
+  width: 100%;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+  position: sticky;
+  /* Make the navbar sticky */
+  top: 0;
+  /* Sticks to the top of the viewport */
+  z-index: 1000;
+  /* Ensures it stays above other elements */
+}
+
+/* Logo */
+.logo-image {
+  width: 11rem;
+  /* Adjust logo size */
+  height: auto;
+}
+
+/* Search Bar */
+.search-bar {
+  width: 350px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.search-bar:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 8px 10px;
+  /* flex: 1; */
+  font-size: 1rem;
+}
+
+.search-bar .searchBox button {
+  justify-self: end;
+}
+
+.search-bar button {
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: #fff;
+  padding: 8px 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #333;
+}
+
+/* Icons Section */
+.icons-container {
+  gap: 25px;
+}
+
+.icon-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #555;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.icon-link i {
+  color: #555;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.icon-link:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.icon-link i:hover {
+  color: #000;
+}
+
+#logoutButton a {
+  color: #555;
+  text-decoration: none;
+}
+
+#logoutButton a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+/**********************/
+.hero-section {
+  text-align: center;
+  background-color: #f9f9f9; /* خلفية فاتحة للنص */
+  padding-bottom: 50px;
+}
+h1{
+  text-align: start;
+}
+.hero-image-wrapper {
+  width: 100%;
+}
+
+.hero-image {
+  width: 1300px;
+  height: 500px;
+}
+
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.hero-content .mission, .hero-content .description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #555;
+  padding: 20px;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+}
+  
+  /* Hero Images Section */
+  .hero-images {
+    padding: 30px 0;
+  }
+  
+  .hero-images .image-row img {
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* تأثير عند مرور الماوس */
+  .hero-images .image-row img:hover {
+    transform: scale(1.1) translateY(-10px); /* تكبير الصورة وتحريكها للأعلى */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* زيادة الظل لإضافة تأثير جميل */
+  }
+  
+  
+ /* How It Works Section */
+.how-it-works {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.how-it-works p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(16.66% - 20px); /* 6 خطوات بعرض متساوٍ */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step:hover {
+  transform: translateY(-10px); /* رفع العنصر للأعلى عند التمرير */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* إضافة ظل */
+}
+
+.icon {
+  background: #ffffff;
+  border: 3px solid #d39c55;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #d39c55;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.content h3 {
+  font-size: 1.2rem;
+  color: #444;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.content p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* تأثير عند التمرير على النص */
+.step:hover .content h3 {
+  color: #d39c55;
+}
+
+.step:hover .content p {
+  color: #222;
+  transform: scale(1.05);
+}
+  
+  /* Refill Products Section */
+  .refill-products {
+    background-color: #d6c3ab;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .refill-products h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .refill-products .product-images img {
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* إضافة الانتقال */
+  }
+  
+  .refill-products .product-images img:hover {
+    transform: scale(1.1); /* تكبير الصورة عند الإشارة */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* تكبير الظل لإبراز التأثير */
+  }
+  
+  
+  /*  Footer  */
+.footer {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  padding: 2rem 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1 1 30%;
+  margin-left: 1.5rem;
+}
+
+.footer-logo img {
+  height: 2.5rem;
+  width: auto;
+  margin-bottom: 0.5rem;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icon {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #343a40;
+}
+
+.quick-menu {
+  text-align: center;
+  margin-right: 4rem;
+
+}
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-menu li {
+  margin: 0.5rem 0;
+
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.footer-menu a:hover {
+  color: #343a40;
+}
+
+.footer-contact {
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.footer-contact li {
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.footer-contact i {
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+
+.footer-bottom {
+  border-top: 1px solid #e9ecef;
+  text-align: center;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-bottom p {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.footer-links {
+  margin-top: 0.5rem;
+}
+
+.footer-links a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #6c757d;
+  font-size: 0.8rem;
+}
+
+.footer-links a:hover {
+  color: #343a40;
+}
+
+.brand-name {
+  color: #AB8E66;
+}
+/* Small Screens (Phones, up to 576px) */
+@media (max-width: 576px) {
+  .footer-container {
+      flex-direction: column; /* Stack sections vertically */
+      align-items: center; /* Center align the content */
+  }
+
+  .footer-section {
+      flex: 1 1 auto;
+      text-align: center; /* Center align each section */
+  }
+
+  .footer-logo img {
+      margin: 0 auto; /* Center the logo */
+  }
+
+  .footer-text {
+      text-align: center;
+  }
+
+  .quick-menu {
+      margin-right: 0; /* Reset margin for small screens */
+  }
+}
+
+/* Medium Screens (Tablets, up to 768px) */
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column; /* Stack sections vertically */
+      gap: 1.5rem; /* Adjust spacing between sections */
+      align-items: center;
+  }
+
+  .footer-section {
+      text-align: center;
+  }
+
+  .footer-logo {
+      order: -1; /* Ensure the logo section appears first */
+  }
+
+  .quick-menu {
+      margin-right: 0;
+  }
+}

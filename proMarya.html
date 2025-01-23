@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Refill Scheme</title>
+  <link rel="stylesheet" href="proMarya.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Sticky Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid nav-container">
+      <!-- Logo (Left Section) -->
+      <div class="logo-container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/logo.png" alt="Logo" class="logo-image" />
+        </a>
+      </div>
+
+      <!-- Navbar Toggler for Mobile View -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Content -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <!-- Categories (Left Section) -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 categories">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <!-- Dropdown for Natural -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="naturalDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Natural Products</a>
+            <ul class="dropdown-menu" aria-labelledby="naturalDropdown">
+              <li><a class="dropdown-item" href="natural.html">Face</a></li>
+              <li><a class="dropdown-item" href="bodyCare.html">Body</a></li>
+              <li><a class="dropdown-item" href="hairCare.html">Hair</a></li>
+            </ul>
+          </li>
+          <!-- Dropdown for Perfume Women -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="perfumeDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Perfumes</a>
+            <ul class="dropdown-menu" aria-labelledby="perfumeDropdown">
+              <li><a class="dropdown-item" href="PerfumeW.html">Women Perfume</a></li>
+              <li><a class="dropdown-item" href="perfumeM.html">Men Perfume</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="proNajar.html">Gift Box</a></li>
+          <li class="nav-item"><a class="nav-link" href="aboutus.html">About us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+        </ul>
+
+        <!-- Search Bar (Middle Section) -->
+        <div class="search-bar mx-auto">
+          <form class="searchBox d-flex" id="searchForm" action="searchresult.html" method="GET">
+            <input class="form-control me-2" type="text" id="searchInput" name="query"
+              placeholder="Search products..." />
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+
+        <!-- Icons (Right Section) -->
+        <div class="d-flex icons-container">
+          <div class="icon-link profile-icon" id="profileIcon">
+            <a href="#"><i class="fas fa-user"></i></a>
+            <span id="profileName">Sign In</span>
+          </div>
+          <div class="icon-link wishlist-icon">
+            <a href="wichlist.html"><i class="fas fa-heart"></i></a>
+            <span>Wishlist</span>
+          </div>
+          <!-- Logout Button (Initially hidden) -->
+          <div class="icon-link" id="logoutButton" style="display: none">
+            <a href="#" id="logoutBtn"><i class="fa fa-sign-out"></i><span> Log Out</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="hero-image-wrapper">
+    <img src="marya imeges/checkout.jpg" alt="Hero Image" class="hero-image">
+  </div>
+  <div class="container">
+    <div class="hero-content">
+      <h1 data-aos="flip-down">Refill Scheme</h1>
+      <p class="description" data-aos="fade-left">
+        you can now refill your packaging again and again. Circular ingredients, circular packaging—it just makes sense! 💭, Join us in closing the loop on packaging. From Body Creams to Cleansing Balms
+      </p>
+      <p class="mission" data-aos="fade-right">Our values is to create a circular future. As you all know, our ingredients are rescued by-products. But what about our packaging? Well, that's where our packaging return scheme comes in! 🌎</p>
+
+    </div>
+  </div>
+</section>
+  <!-- Hero Images Section -->
+  <section class="hero-images">
+    <div class="container">
+      <div class="image-row">
+        <img src="marya imeges/cb3095ce039c3ec5797ac8f641aa6b30.jpg" alt="Image 1">
+        <img src="./marya imeges/6b086c233716c065567ad9d8d7c2a267.jpg" alt="Image 2">
+        <img src="./marya imeges/ba62dc02b73cdf86ef2569b00580a328.jpg" alt="Image 3">
+      </div>
+    </div>
+  </section>
+
+<!-- How It Works Section -->
+<section class="how-it-works">
+  <div class="container">
+    <h2>How It Works</h2>
+    <p>From body creams to cleansing balms, you can now refill your packaging again and again. Circular ingredients, circular packaging—it just makes sense!</p>
+    <div class="steps">
+      <div class="step">
+        <div class="icon">
+          <span>1</span>
+        </div>
+        <div class="content">
+          <h3>Placing an Order</h3>
+          <p>Choose the product you'd like to refill from our collection and add it to your basket.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="icon">
+          <span>2</span>
+        </div>
+        <div class="content">
+          <h3>Filling Out the Form</h3>
+          <p>Fill out your return form available on the website.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="icon">
+          <span>3</span>
+        </div>
+        <div class="content">
+          <h3>Secure Packaging</h3>
+          <p>Securely package your empty bottles for return.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="icon">
+          <span>4</span>
+        </div>
+        <div class="content">
+          <h3>Free Shipping</h3>
+          <p>Take it to a post office and ship it to us for free!</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="icon">
+          <span>5</span>
+        </div>
+        <div class="content">
+          <h3>We Refill & Return</h3>
+          <p>We'll receive, refill, and return the product to you!</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="icon">
+          <span>6</span>
+        </div>
+        <div class="content">
+          <h3>Enjoy Discounts</h3>
+          <p>Enjoy 20% off your next purchase as a reward!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- Refillable Products Section -->
+ <section class="refill-products">
+  <div class="container">
+    <h2>Which products can be refilled?</h2>
+    <p>Almost all of our packaging is refillable! From creams to oils, we ensure the best for you and the planet.</p>
+    <div class="product-images">
+      <img src="marya imeges/1daf9439cbce0d87ff0dbdabd242d647.jpg" alt="Product Image 1">
+      <img src="marya imeges/02f5511ef771ee228798cfd2df7fe07c.jpg" alt="Product Image 2">
+    </div>
+  </div>
+ </section>
+ 
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Section 1: Brand Description -->
+      <div class="footer-section">
+        <div class="footer-logo"><img src="./images/logo.png"></div>
+        <p class="footer-text">
+          Where beauty meets care—discover your signature glow with our exquisite range of perfumes, skincare,
+          hair, and body essentials! Transform every moment into a self-care ritual with products crafted to
+          inspire confidence and radiance.
+        </p>
+        <div class="social-icons">
+          <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <!-- Section 2: Quick Menu -->
+      <div class="footer-section">
+        <div class="quick-menu">
+          <h3 class="footer-title">Quick Menu</h3>
+          <ul class="footer-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="natural.html">Natural</a></li>
+            <li><a href="bodyCare.html">Body</a></li>
+            <li><a href="hairCare.html">Hair</a></li>
+            <li><a href="perfumeM.html">Men Perfumes</a></li>
+            <li><a href="PerfumeW.html">Women Perfumes</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Section 3: Contact Info -->
+      <div class="footer-section">
+        <h3 class="footer-title">Contact Us</h3>
+        <ul class="footer-contact">
+          <li><i class="fas fa-envelope"></i> LUMIERE@gmail.com</li>
+          <li><i class="fas fa-phone"></i> +962 00000000</li>
+          <li><i class="fas fa-map-marker-alt"></i> Amman, Abdoun</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Copyright © 2025 <span class="brand-name">LUMIERE</span>. All rights reserved</p>
+      <div class="footer-links">
+        <a href="#">Terms of Use</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script type="module" src="signchecked.js"></script>
+    <script type="module" src="search.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,491 @@
+{
+    "perfumMen": [
+    {
+        "image":"image/giorgio armani.jpeg",
+        "nameProduct":"Giorgio Armani Code Parfum 125Ml",
+        "detailsProduct":"Bold, fresh, and spicy masculine scent",
+        "price": 121.00
+        
+    },
+    {
+        "image":"image/azzaro sport.jpeg",
+        "nameProduct":"Azzaro SportEDT 100Ml",
+        "detailsProduct":"Elegant woody and citrusy fragrance",
+        "price": 35.00
+        
+    },
+    {
+        "image":"image/david instinct.jpeg",
+        "nameProduct":"David Beckham Instinct 75Ml",
+        "detailsProduct":"Sophisticated, fruity, and woody aroma",
+        "price": 16.00
+        
+    },
+    {
+        "image":"image/david true.jpeg",
+        "nameProduct":"David Beckham True EDP 75Ml",
+        "detailsProduct":"Rich, mysterious, and seductive essence",
+        "price": 18.00
+        
+    },
+    {
+        "image":"image/dior homme.jpeg",
+        "nameProduct":"Dior Homme Intense EDP 50Ml",
+        "detailsProduct":"Smooth, warm, and timelessly alluring",
+        "price": 79.00
+        
+    },
+    {
+        "image":"image/pepe jeans.jpeg",
+        "nameProduct":"Pepe Jeans Cocktail 100Ml EDT",
+        "detailsProduct":"Classic, fresh, and versatile everyday scent",
+        "price": 33.00
+        
+    },
+    {
+        "image":"image/enzo aqua.jpeg",
+        "nameProduct":"Enzo Aqua EDT 100ml",
+        "detailsProduct":"Clean, modern, and energetic fougère",
+        "price": 19.00
+        
+    },
+    {
+        "image":"image/geparlys.jpeg",
+        "nameProduct":"Eparlys Inner Force 100Ml EDT",
+        "detailsProduct":"Vibrant, sensual, and captivating fougère",
+        "price": 30.00
+        
+    },
+    {
+        "image":"image/dumont nitro.jpeg",
+        "nameProduct":"Dumont Nitro Intense EDP 100Ml",
+        "detailsProduct":"Sweet, spicy, and daringly luxurious",
+        "price": 22.00
+        
+    },
+    
+    {
+        "image":"image/dior sauvage.jpeg",
+        "nameProduct":"Dior Sauvage Eau Forte 100Ml",
+        "detailsProduct":"Fresh aquatic with intense woody depths",
+        "price": 139.00
+        
+    },
+    {
+        "image":"image/azzaro.jpeg",
+        "nameProduct":"Azzaro The Most Wanted  100ml",
+        "detailsProduct":"Warm, spicy, and elegant autumn vibe",
+        "price": 75.00
+        
+    },
+    {
+        "image":"image/milestone.jpeg",
+        "nameProduct":"Milestone Black Code EDP 90ml",
+        "detailsProduct":" Adventurous, fresh, and leathery aroma",
+        "price": 35.00
+        
+    }
+    
+],
+   "perfumWomen": [
+    {
+        "image":"image/me purple.jpeg",
+        "nameProduct":"Colour Me Purple 100ML",
+        "detailsProduct":"Timeless, floral, and sophisticated elegance",
+        "price": 16.00
+        
+    },
+    {
+        "image":"image/lattaf teriaq.jpeg",
+        "nameProduct":"Lattafa Teriaq EDP 100Ml",
+        "detailsProduct":"Luxurious, floral, and radiant feminine scent",
+        "price": 21.00
+        
+    },
+    {
+        "image":"image/alberto taccini.jpeg",
+        "nameProduct":"Alberto Taccini Nocturnal EDP 30Ml",
+        "detailsProduct":"Luxurious, floral, and radiant feminine scent",
+        "price": 16.00
+        
+    },
+    {
+        "image":"image/chris adams.jpeg",
+        "nameProduct":"Chris Adams Active Women EDP 80Ml",
+        "detailsProduct":"Bold, floral, and modern with lavender",
+        "price": 18.00
+        
+    },
+    {
+        "image":"image/lattaf teriaq.jpeg",
+        "nameProduct":"Lattafa Maison  Pink 100Ml",
+        "detailsProduct":"Fresh, floral, and garden-inspired fragrance",
+        "price": 15.00
+        
+    },
+    {
+        "image":"image/hugo boss.jpeg",
+        "nameProduct":"Hugo Boss Femme 75Ml",
+        "detailsProduct":"Sweet, fruity, and irresistibly joyful",
+        "price": 54.00
+        
+    },
+    {
+        "image":"image/milest floral.jpeg",
+        "nameProduct":"Milestone Floral EDP 100Ml",
+        "detailsProduct":"Explosive floral with sweet, spicy notes",
+        "price": 18.00
+        
+    },
+    {
+        "image":"image/bvlgari pour.jpeg",
+        "nameProduct":"Bvlgari Pour Femme 50ML EDP",
+        "detailsProduct":"Sensual, bold, and sweetly seductive",
+        "price": 69.00
+        
+    },
+    {
+        "image":"image/prive pink.jpeg",
+        "nameProduct":"Prive Pink Rose 100ml EDP",
+        "detailsProduct":"Rich, dark, and exotic floral aroma",
+        "price": 22.00
+        
+    },
+    {
+        "image":"image/rose paris.jpeg",
+        "nameProduct":"Rose Paris By  Zaafaran EDP 100Ml",
+        "detailsProduct":"Soft, floral, and elegant femininity",
+        "price": 10.00
+        
+    },
+    {
+        "image":"image/emper fantasy.jpeg",
+        "nameProduct":"Emper Fantasy Pink EDP 100Ml",
+        "detailsProduct":" Refreshing, citrusy, and airy Mediterranean",
+        "price": 19.00
+        
+    },
+    {
+        "image":"image/lomina desire.jpeg",
+        "nameProduct":"Lomani Desire Paris EDP 100ml",
+        "detailsProduct":"Romantic, floral, and powdery sophistication",
+        "price": 12.00
+        
+    }
+    ],
+       "naturalProducts": [
+    {
+        "image":"0c940e502c4d01ccfa0f5b8a354c74a6.jpg",
+        "nameProduct":"SkinMedica Rejuvenative Moisturizer",
+        "detailsProduct":"A nourishing facial moisturizer for dry and normal skin types.",
+        "price": 15.00
+        
+    },
+    {
+        "image":"2a9db45056a64eda69417aeaccccaa5f copy 2.jpg",
+        "nameProduct":"SkinMedica Neck Correct Cream ",
+        "detailsProduct":"A powerful, anti-aging treatment for the neck and decollete area.",
+        "price": 35.00
+        
+    },
+    {
+        "image":"3ba3078f967f28a16bf13605e773df50.jpg",
+        "nameProduct":"SkinMedica Rejuvenative Moisturizer",
+        "detailsProduct":"A nourishing facial moisturizer for dry and normal skin types.",
+        "price": 16.00
+        
+    },
+    {
+        "image":"4d73941a9c35df9cfcfb912892b853c8.jpg",
+        "nameProduct":"Obagi Medical Hydrate Luxe",
+        "detailsProduct":"A nourishing facial moisturizer for dry and normal skin types.",
+        "price": 18.00
+        
+    },
+    {
+        "image":"9f75056d06189794c547429881947075.jpg",
+        "nameProduct":"SkinMedica Neck Correct Cream",
+        "detailsProduct":"A hydrating cream that firms and defends climate-stressed skin",
+        "price": 19.00
+        
+    },
+    {
+        "image":"30cfb4bfd5808c22ae70e9efacbad031.jpg",
+        "nameProduct":"Conditioning Hair Mask",
+        "detailsProduct":"An intense treatment mask to restore hydration to dry, damaged and chemically treated hair.",
+        "price": 14.00
+        
+    },
+    {
+        "image":"999d41b486ce10e84435bd39a03f5318.jpg",
+        "nameProduct":"VIRTUE Scalp Remedy Conditioner 200ml",
+        "detailsProduct":"a protein 100% bio-identical to the keratin naturally found in your hair and scalp.",
+        "price": 19.00
+        
+    },
+    {
+        "image":"21663a3f5043ab26088b5ee6cb7f1d7d.jpg",
+        "nameProduct":"Smoother Frizz Control Styling Hair Cream 100ml",
+        "detailsProduct":" smooths, conditions and strengthens without adding hold or excess weight.",
+        "price": 12.00
+        
+    },
+    {
+        "image":"60612eec5990171a584d39fc236eed81.jpg",
+        "nameProduct":"Super Moisture Shampoo for Damaged Hair",
+        "detailsProduct":"This fortifying shampoo removes dirt, oil and buildup without stripping.",
+        "price": 22.00
+        
+    },
+    
+    {
+        "image":"60458587d03ebe6a391abf1914b23c86.jpg",
+        "nameProduct":"SkinMedica HA5 Rejuvenating Hydrator",
+        "detailsProduct":"A moisturizing facial serum that provides eight continuous hours of deep hydration.",
+        "price": 13.00
+        
+    },
+    {
+        "image":"7773889623c77065d14a48a67704109d.jpg",
+        "nameProduct":"Revision Skincare C+ Correcting Complex",
+        "detailsProduct":" C+ Correcting Complex 30%Â® defends and corrects the skin-damaging effects.",
+        "price": 17.00
+        
+    },
+    {
+        "image":"b62e90d03eb86c253874d613ee9e591d.jpg",
+        "nameProduct":"SkinCeuticals Triple Lipid Restore",
+        "detailsProduct":"An anti-aging facial treatment with essential lipids for mature skin types.",
+        "price": 15.00
+        
+    }
+    
+],
+"bodyCare": [
+    {
+      "detailsProduct": "Cleanses,controls excess oils and calms your skin",
+      "image": "https://s.alicdn.com/@sc04/kf/Hdf3bd8f0a9d949f9885aee43ce26c16d1.jpg_720x720q50.jpg",
+      "nameProduct": "Body Mud Mask",
+      "price": 5
+    },
+    {
+      "detailsProduct": "Nourishes,refines and calms your skin naturally",
+      "image": "https://s.alicdn.com/@sc04/kf/Hde167cabd0494e76b45fbda60cad7c83k.jpg_720x720q50.jpg",
+      "nameProduct": "Woman Man Vegan Hydrating Whitening Cleansing Milk Foam Private Label Organic Skin Care Face Wash Facial Cleanser",
+      "price": 11
+    },
+    {
+      "detailsProduct": "Woman Man Vegan Hydrating Whitening Cleansing Milk Foam Private Label Organic Skin Care Face Wash Facial Cleanser",
+      "image": "https://s.alicdn.com/@sc04/kf/H1b4840dd09664ce0aaf5bf4d8cdfb350l.jpg_720x720q50.jpg",
+      "nameProduct": "Skin Care Face",
+      "price": 16
+    },
+    {
+      "detailsProduct": "korean Retinol vitamin C E facial serum SKIN CARE whitening anti aging dark spot REMOVER SET face serum for face",
+      "image": "https://s.alicdn.com/@sc04/kf/He631b63f77d5432cad84436e6f8cb026z.jpg_720x720q50.jpg",
+      "nameProduct": "korean Retinol vitamin C E ",
+      "price": 18
+    },
+    {
+      "detailsProduct": "Private Label Makeup Avocado Remover 2 In 1 Nourishing Cleansing Balm For Women Face All The Skin",
+      "image": "https://s.alicdn.com/@sc04/kf/H2f39a446611043d1ab919365ac160d35Y.jpg_720x720q50.jpg",
+      "nameProduct": "Private Label Makeup Avocado",
+      "price": 79
+    },
+    {
+      "detailsProduct": "BPOM Approved KORMESIC Private Label Skin Care Set New Zealand Manuka Honey Vitamin C Aloe Face Wash Serum Eye Cream Repair",
+      "image": "https://s.alicdn.com/@sc04/kf/H8c54b2347a7f4a128743ee0b6bea15c1T.jpg_720x720q50.jpg",
+      "nameProduct": "BPOM Approved KORMESIC ",
+      "price": 33
+    },
+    {
+      "detailsProduct": "High Quality 30ml Alpha-Arbutin Whitening Face Serum with Brightening Anti-Dark Spot & Moisturizing Formula",
+      "image": "https://s.alicdn.com/@sc04/kf/Se2b9e5167dc548b580f758079efafeaai.png_720x720q50.jpg",
+      "nameProduct": "High Quality 30ml ",
+      "price": 19
+    },
+    {
+      "detailsProduct": "YECUCE deeply hydrates softens skin 120g beef tallow honey body face cream whipped tallow honey beef tallow balm",
+      "image": "https://s.alicdn.com/@sc04/kf/H039a6ebf04d940539f3093f8b131fb57C.jpg_720x720q50.jpg",
+      "nameProduct": "YECUCE deeply hydrates softens skin",
+      "price": 30
+    },
+    {
+      "detailsProduct": "face serum 10% Niacinamide 4% Tranexamic Acid dark spots correct whitening freckle removal face skin care facial serum for face",
+      "image": "https://s.alicdn.com/@sc04/kf/H0508d7c65a2045ccb6df19a7f48b259fH.jpg_720x720q50.jpg",
+      "nameProduct": "face serum",
+      "price": 22
+    },
+    {
+      "detailsProduct": "wholesale organic face facial serum anti wrinkle private label skin care oem korean collagen retinol face serum for face",
+      "image": "https://s.alicdn.com/@sc04/kf/H6bf148454e094acc87d664d1b6e5c900z.jpg_720x720q50.jpg",
+      "nameProduct": "wholesale organic face facial serum ",
+      "price": 139
+    },
+    {
+      "detailsProduct": "body wash liquid soap private label natural skin care and clean Vitamin Honey Nourishing smooth vegan shower gel wholesale",
+      "image": "https://s.alicdn.com/@sc04/kf/H813161e6b8224e08b56ed550f0f15e5do.jpg_720x720q50.jpg",
+      "nameProduct": "body wash liquid soap private label",
+      "price": 75
+    },
+    {
+      "detailsProduct": " Good manufacturer high quality moisturizing hand mask for collagen hand repair care moisturizing hand mask gloves",
+      "image": "https://s.alicdn.com/@sc04/kf/H03912bfab88b4947a63f9158752c5974a.jpg_720x720q50.jpg",
+      "nameProduct": "Good manufacturer",
+      "price": 35
+    }
+  ],
+  "box1": [
+    {
+      "detailsProduct": "Bold, fresh, and spicy masculine scent",
+      "image": "image/giorgio armani.jpeg",
+      "nameProduct": "Giorgio Armani Code Parfum 125Ml",
+      "price": 121
+    },
+    {
+      "detailsProduct": "Timeless, floral, and sophisticated elegance",
+      "image": "image/me purple.jpeg",
+      "nameProduct": "Colour Me Purple 100ML",
+      "price": 16
+    },
+    {
+      "detailsProduct": "Cleanses,controls excess oils and calms your skin",
+      "image": "https://s.alicdn.com/@sc04/kf/Hdf3bd8f0a9d949f9885aee43ce26c16d1.jpg_720x720q50.jpg",
+      "nameProduct": "Body Mud Mask",
+      "price": 5
+    },
+    {
+      "detailsProduct": "Cheap Customize Rosemary Bio hair care shampoo hair growth ginseng shampoo and conditioner for Prevent hair loss",
+      "image": "https://s.alicdn.com/@sc04/kf/Hc0dd94f3216f433b883c06173ef5af11c.jpg_720x720q50.jpg",
+      "nameProduct": "Cheap Customize Rosemary",
+      "price": 35
+    }
+  ],
+  "box2": [
+    {
+      "detailsProduct": "Sophisticated, fruity, and woody aroma",
+      "image": "image/david instinct.jpeg",
+      "nameProduct": "David Beckham Instinct 75Ml",
+      "price": 16
+    },
+    {
+      "detailsProduct": "Woman Man Vegan Hydrating Whitening Cleansing Milk Foam Private Label Organic Skin Care Face Wash Facial Cleanser",
+      "image": "https://s.alicdn.com/@sc04/kf/H1b4840dd09664ce0aaf5bf4d8cdfb350l.jpg_720x720q50.jpg",
+      "nameProduct": "Skin Care Face",
+      "price": 16
+    },
+    {
+      "detailsProduct": " Cynos Private label Shampoo argon oil haircare ,Moisturizing and Deep cleaning Argan oil Shampoo set",
+      "image": "https://s.alicdn.com/@sc04/kf/Hc706c03c1c6f47259bd53338330b35040.jpg_720x720q50.jpg",
+      "nameProduct": "Cynos Private label Shampoo",
+      "price": 35
+    }
+  ],
+  "box3": [
+    {
+      "detailsProduct": "Luxurious, floral, and radiant feminine scent",
+      "image": "image/alberto taccini.jpeg",
+      "nameProduct": "Alberto Taccini Nocturnal EDP 30Ml",
+      "price": 16
+    },
+    {
+      "detailsProduct": "Bold, floral, and modern with lavender",
+      "image": "image/chris adams.jpeg",
+      "nameProduct": "Chris Adams Active Women EDP 80Ml",
+      "price": 18
+    },
+    {
+      "detailsProduct": " Factory Price Custom Organic Anti Hair Loss Best Private Label Natural OEM Argan Oil Hair Shampoo and Conditioner",
+      "image": "https://s.alicdn.com/@sc04/kf/H58eb7a5aa23a4268baa2c3564f829eedV.jpg_720x720q50.jpg",
+      "nameProduct": "Factory Price Custom Organic",
+      "price": 35
+    },
+    {
+      "detailsProduct": " BEAVER Private Label Eco Friendly Organic Round Bar Keratin Solid Customised Argan Oil Soap Shampoo Bars Haircare",
+      "image": "https://s.alicdn.com/@sc04/kf/Haba24f571cf5427b9f3775d40702dad8g.png_720x720q50.jpg",
+      "nameProduct": "BEAVER Private Label Eco ",
+      "price": 35
+    }
+  ],
+  "hairCare": [
+    {
+      "detailsProduct": "Cheap Customize Rosemary Bio hair care shampoo hair growth ginseng shampoo and conditioner for Prevent hair loss",
+      "image": "https://s.alicdn.com/@sc04/kf/Hc0dd94f3216f433b883c06173ef5af11c.jpg_720x720q50.jpg",
+      "nameProduct": "Cheap Customize Rosemary",
+      "price": 35
+    },
+    {
+      "detailsProduct": " Cynos Private label Shampoo argon oil haircare ,Moisturizing and Deep cleaning Argan oil Shampoo set",
+      "image": "https://s.alicdn.com/@sc04/kf/Hc706c03c1c6f47259bd53338330b35040.jpg_720x720q50.jpg",
+      "nameProduct": "Cynos Private label Shampoo",
+      "price": 35
+    },
+    {
+      "detailsProduct": " Factory Price Custom Organic Anti Hair Loss Best Private Label Natural OEM Argan Oil Hair Shampoo and Conditioner",
+      "image": "https://s.alicdn.com/@sc04/kf/H58eb7a5aa23a4268baa2c3564f829eedV.jpg_720x720q50.jpg",
+      "nameProduct": "Factory Price Custom Organic",
+      "price": 35
+    },
+    {
+      "detailsProduct": " BEAVER Private Label Eco Friendly Organic Round Bar Keratin Solid Customised Argan Oil Soap Shampoo Bars Haircare",
+      "image": "https://s.alicdn.com/@sc04/kf/Haba24f571cf5427b9f3775d40702dad8g.png_720x720q50.jpg",
+      "nameProduct": "BEAVER Private Label Eco ",
+      "price": 35
+    },
+    {
+      "detailsProduct": "Customized Soft Silicone Scalp Scrubber Detangling Shampoo Hair Brush Round Scalp Scrub Scalp Massager Brush for hair growth(3 Reviews)9402 sold",
+      "image": "https://s.alicdn.com/@sc04/kf/H54a1bca7b93e4686a374950cddc2b228G.jpg_720x720q50.jpg",
+      "nameProduct": "Customized Soft Silicone",
+      "price": 35
+    },
+    {
+      "detailsProduct": "Hot selling factory bottles for hair care products empty bottle with comb cap custom plastic personal care packaging",
+      "image": "https://s.alicdn.com/@sc04/kf/H51e5f8d03b0d4cc99bc6c8cf40fd97883.jpg_720x720q50.jpg",
+      "nameProduct": "Hot selling factory bottles ",
+      "price": 35
+    },
+    {
+      "detailsProduct": " Private Label All Natural Bamboo Paddle Hair Brush with Air Cushion Wholesale High Quality Bamboo Brush Detangling Hair Brush",
+      "image": "https://s.alicdn.com/@sc04/kf/Hf650e7bc3c3d4240b3d8cb713f59221f4.jpg_720x720q50.jpg",
+      "nameProduct": "Private Label All Natural Bamboo",
+      "price": 35
+    },
+    {
+      "detailsProduct": " SANTE Shampoo Naturkosmetik Glossy Shine Shampoo with organic birch leaf extract, hydrating haircare, with delicate coconent",
+      "image": "https://s.alicdn.com/@sc04/kf/H6f3f93fe10a040599703309c1f57aa1en.jpg_720x720q50.jpg",
+      "nameProduct": "SANTE Shampoo Naturkosmetik",
+      "price": 35
+    },
+    {
+      "detailsProduct": " Professional Salon High Performance Customized Natural Argan Oil Organic Haircare Products Spray Private Label",
+      "image": "https://s.alicdn.com/@sc04/kf/Hea98c7fb382a4dd68817c6214e0015a9y.png_720x720q50.jpg",
+      "nameProduct": "Natural Argan Oil Organic Haircare",
+      "price": 35
+    },
+    {
+      "detailsProduct": " private label black / curly haircare",
+      "image": "https://s.alicdn.com/@sc04/kf/H8a6ecb4ddce049c38e963dd6e5dec76e8.jpg_720x720q50.jpg",
+      "nameProduct": "private label black",
+      "price": 35
+    },
+    {
+      "detailsProduct": " Haircare products For Women 100% Pure Batana oil +Rosemary Oil Hair Growth Serum Moist and Nourish Hair Natural formulas Oil",
+      "image": "https://s.alicdn.com/@sc04/kf/H4f1a5e78fa4f420597a4a5fc755affacp.jpg_720x720q50.jpg",
+      "nameProduct": "Haircare products For Women",
+      "price": 35
+    },
+    {
+      "detailsProduct": " Private Label Instant Soft Smooth Silk Hair Serum Oil Nourishing Smoothing Hair Treatment Oil Organic Hair Oil Serum",
+      "image": "https://s.alicdn.com/@sc04/kf/Hb6e878c4067b45b7951d63d544214ba01.jpg_720x720q50.jpg",
+      "nameProduct": "Soft Smooth Silk Hair Serum Oil",
+      "price": 35
+    },
+    {
+      "detailsProduct": " Natural Aloe Vera Hair Care Skin Care Set Hair Organic Shampoo And Conditioner Repairing Hair Care Products For Frizzy",
+      "image": "https://s.alicdn.com/@sc04/kf/Hf620bbb717504cd2bc554191858c06cdH.jpg_720x720q50.jpg",
+      "nameProduct": "Natural Aloe Vera Hair",
+      "price": 35
+    }
+  ]
+}
+

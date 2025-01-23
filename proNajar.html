@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>elastic accordion restaurant menu list</title>
+  <link rel="stylesheet" href="proNajjar.css" />
+  <link rel="stylesheet" href="homePage.css" />
+  <!-- BootStrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Sticky Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid nav-container">
+      <!-- Logo (Left Section) -->
+      <div class="logo-container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/logo.png" alt="Logo" class="logo-image" />
+        </a>
+      </div>
+
+      <!-- Navbar Toggler for Mobile View -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Content -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <!-- Categories (Left Section) -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 categories">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <!-- Dropdown for Natural -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="naturalDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Natural Products</a>
+            <ul class="dropdown-menu" aria-labelledby="naturalDropdown">
+              <li><a class="dropdown-item" href="natural.html">Face</a></li>
+              <li><a class="dropdown-item" href="bodyCare.html">Body</a></li>
+              <li><a class="dropdown-item" href="hairCare.html">Hair</a></li>
+            </ul>
+          </li>
+          <!-- Dropdown for Perfume Women -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="perfumeDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Perfumes</a>
+            <ul class="dropdown-menu" aria-labelledby="perfumeDropdown">
+              <li><a class="dropdown-item" href="PerfumeW.html">Women Perfume</a></li>
+              <li><a class="dropdown-item" href="perfumeM.html">Men Perfume</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="proNajar.html">Gift Box</a></li>
+          <li class="nav-item"><a class="nav-link" href="aboutus.html">About us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+        </ul>
+
+        <!-- Search Bar (Middle Section) -->
+        <div class="search-bar mx-auto">
+          <form class="searchBox d-flex" id="searchForm" action="searchresult.html" method="GET">
+            <input class="form-control me-2" type="text" id="searchInput" name="query"
+              placeholder="Search products..." />
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+
+        <!-- Icons (Right Section) -->
+        <div class="d-flex icons-container">
+          <div class="icon-link profile-icon" id="profileIcon">
+            <a href="#"><i class="fas fa-user"></i></a>
+            <span id="profileName">Sign In</span>
+          </div>
+          <div class="icon-link wishlist-icon">
+            <a href="wichlist.html"><i class="fas fa-heart"></i></a>
+            <span>Wishlist</span>
+          </div>
+          <!-- Logout Button (Initially hidden) -->
+          <div class="icon-link" id="logoutButton" style="display: none">
+            <a href="#" id="logoutBtn"><i class="fa fa-sign-out"></i><span> Log Out</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <h2 data-aos="zoom-in" data-aos-duration="1500">
+    Gifts
+    <span>Boxes</span>
+  </h2>
+
+  <h2 data-aos="fade-up" data-aos-duration="900">Elegance Kit <br /></h2>
+  <div class="group" id="box1">
+    <div class="item" data-aos="flip-right">
+      <div class="overlay"></div>
+      <div class="menu">
+        <label>S</label>
+      </div>
+    </div>
+
+    <div class="item" data-aos="flip-left">
+      <div class="overlay"></div>
+      <div class="menu">
+        <label>F</label>
+      </div>
+    </div>
+
+    <div class="item" data-aos="zoom-in-up">
+      <div class="overlay"></div>
+      <div class="menu">
+        <label>S</label>
+      </div>
+    </div>
+
+    <div class="item" data-aos="fade-in">
+      <div class="overlay"></div>
+      <div class="menu">
+        <label>C</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="btnA">
+    <button id="readMoreButtonBox1">Read More</button>
+    <a class="gift-link" href="checkout.html"><button id="readMoreButtonBox1">Checkout</button></a>
+  </div>
+
+    <h2 data-aos="fade-up" data-aos-duration="900">Pure Harmony Kit <br /></h2>
+    <div class="group" id="box2">
+      <div class="item" data-aos="flip-right">
+        <div class="overlay"></div>
+        <div class="menu">
+          <label>S</label>
+        </div>
+      </div>
+
+      <div class="item" data-aos="flip-left">
+        <div class="overlay"></div>
+        <div class="menu">
+          <label>F</label>
+        </div>
+      </div>
+
+      <div class="item" data-aos="zoom-in-up">
+        <div class="overlay"></div>
+        <div class="menu">
+          <label>S</label>
+        </div>
+      </div>
+
+      <div class="item" data-aos="fade-in">
+        <div class="overlay"></div>
+        <div class="menu">
+          <label>C</label>
+        </div>
+      </div>
+    </div>
+
+  <div class="btnA">
+    <button id="readMoreButtonBox2">Read More</button>
+    <a class="gift-link" href="checkout.html"><button id="readMoreButtonBox2">Checkout</button></a>
+  </div>
+
+    <h2 data-aos="fade-up" data-aos-duration="900">Velvet Kit<br /></h2>
+    <div class="group" id="box3">
+      <div class="item" data-aos="flip-right">
+        <div class="overlay"></div>
+        <div class="menu">
+          <label>S</label>
+        </div>
+      </div>
+
+      <div class="item" data-aos="flip-left">
+        <div class="overlay"></div>
+        <div class="menu">
+          <label>F</label>
+        </div>
+      </div>
+
+      <div class="item" data-aos="zoom-in-up">
+        <div class="overlay"></div>
+        <div class="menu">
+          <label>S</label>
+        </div>
+      </div>
+
+      <div class="item" data-aos="fade-in">
+        <div class="overlay"></div>
+        <div class="menu">
+          <label>C</label>
+        </div>
+      </div>
+    </div>
+
+  <div class="btnA">
+    <button id="readMoreButtonBox3">Read More</button>
+    <a class="gift-link" href="checkout.html"><button id="readMoreButtonBox3">Checkout</button></a>
+  </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 class="modal-title">Items</h2>
+        <div id="boxItems"></div>
+        <p id="totalPrice"></p>
+      </div>
+    </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Section 1: Brand Description -->
+      <div class="footer-section">
+        <div class="footer-logo"><img src="./images/logo.png" /></div>
+        <p class="footer-text">
+          Where beauty meets care—discover your signature glow with our
+          exquisite range of perfumes, skincare, hair, and body essentials!
+          Transform every moment into a self-care ritual with products crafted
+          to inspire confidence and radiance.
+        </p>
+        <div class="social-icons">
+          <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <!-- Section 2: Quick Menu -->
+      <div class="footer-section">
+        <div class="quick-menu">
+          <h3 class="footer-title">Quick Menu</h3>
+          <ul class="footer-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="natural.html">Natural</a></li>
+            <li><a href="bodyCare.html">Body</a></li>
+            <li><a href="hairCare.html">Hair</a></li>
+            <li><a href="perfumeM.html">Men Perfumes</a></li>
+            <li><a href="PerfumeW.html">Women Perfumes</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Section 3: Contact Info -->
+      <div class="footer-section">
+        <h3 class="footer-title">Contact Us</h3>
+        <ul class="footer-contact">
+          <li><i class="fas fa-envelope"></i> LUMIERE@gmail.com</li>
+          <li><i class="fas fa-phone"></i> +962 00000000</li>
+          <li><i class="fas fa-map-marker-alt"></i> Amman, Abdoun</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        Copyright © 2025 <span class="brand-name">LUMIERE</span>. All rights
+        reserved
+      </p>
+      <div class="footer-links">
+        <a href="#">Terms of Use</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="proNajjar.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js" type="module"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.17.2/firebase-auth.js" type="module"></script>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";
+    import {
+      getDatabase,
+      ref,
+      get,
+    } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-database.js";
+    import { getAuth } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-auth.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyDxSJ8AGk9Kqf9I6gE1ObDgKEAl6GqdgO4",
+      authDomain: "gift-16723.firebaseapp.com",
+      databaseURL: "https://gift-16723-default-rtdb.firebaseio.com",
+      projectId: "gift-16723",
+      storageBucket: "gift-16723.appspot.com",
+      messagingSenderId: "634980572744",
+      appId: "1:634980572744:web:2178bbdc623fc5d4a3027d",
+      measurementId: "G-0XMRC1TFRL",
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
+    const auth = getAuth(app);
+
+    function getRandomItems(snapshot, count) {
+      const data = snapshot.val();
+      const keys = Object.keys(data);
+      const randomKeys = keys.sort(() => 0.5 - Math.random()).slice(0, count);
+      return randomKeys.map((key) => data[key]);
+    }
+
+    function updateBoxContent(boxSelector, data) {
+      const box = document.querySelector(boxSelector);
+      if (box) {
+        const items = box.querySelectorAll(".item");
+        data.forEach((itemData, index) => {
+          if (items[index]) {
+            const label = items[index].querySelector("label");
+            const itemDiv = items[index];
+            label.textContent = itemData.nameProduct;
+            itemDiv.style.setProperty("--url", `url('${itemData.image}')`);
+          }
+        });
+      }
+    }
+
+    function showBoxItemsInModal(data, boxTitle) {
+      const modal = document.getElementById("myModal");
+      const boxItemsDiv = document.getElementById("boxItems");
+      const totalPriceDiv = document.getElementById("totalPrice");
+
+      boxItemsDiv.innerHTML = data
+        .map(
+          (item) => `
+            <div>
+              <p><strong>${item.nameProduct}</strong></p>
+              <p>Price: ${item.price}.00JD</p>
+              <img src="${item.image}" alt="${item.nameProduct}" style="width: 100px; height: 100px;">
+            </div>`
+        )
+        .join("");
+
+        const totalPrice = data.reduce((total, item) => total + item.price, 0);
+        totalPriceDiv.textContent = `Total Price: ${totalPrice}.00JD`;
+
+      const modalTitle = document.querySelector(".modal-title");
+      modalTitle.textContent = `${boxTitle} Items`;
+
+      modal.style.display = "block";
+    }
+
+    document.querySelector(".close").onclick = function () {
+      document.getElementById("myModal").style.display = "none";
+    };
+
+    get(ref(database, "box1")).then((snapshot) => {
+      const randomDataBox1 = getRandomItems(snapshot, 4);
+      updateBoxContent("#box1", randomDataBox1);
+
+      document
+        .getElementById("readMoreButtonBox1")
+        .addEventListener("click", () => {
+          showBoxItemsInModal(randomDataBox1, "Box 1");
+        });
+    });
+
+      get(ref(database, "box2")).then((snapshot) => {
+        const hairCareData = getRandomItems(snapshot, 4);
+        updateBoxContent("#box2", hairCareData);
+
+      document
+        .getElementById("readMoreButtonBox2")
+        .addEventListener("click", () => {
+          showBoxItemsInModal(hairCareData, "Box 2");
+        });
+    });
+
+      get(ref(database, "box3")).then((snapshot) => {
+        const bodyCareData = getRandomItems(snapshot, 4);
+        updateBoxContent("#box3", bodyCareData);
+
+        document
+          .getElementById("readMoreButtonBox3")
+          .addEventListener("click", () => {
+            showBoxItemsInModal(bodyCareData, "Box 3");
+          });
+      });
+  </script>
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script type="module" src="signchecked.js"></script>
+  <script type="module" src="search.js"></script>
+</body>
+
+</html>
